@@ -80,3 +80,32 @@ a{
 .hero-button:focus {
     background-color: #404bbf
 }
+
+.section {
+    padding: 120px 0;
+}
+
+.values-list {
+    display: flex;
+    gap: 24px;
+}
+
+.values-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.values-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.values-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
