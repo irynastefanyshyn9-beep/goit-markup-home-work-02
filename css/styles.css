@@ -17,9 +17,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 img {
-    display: block;
     max-width: 100%;
-    height: auto;
 }
 
 .logo{
@@ -91,10 +89,6 @@ img {
   background-color: #404bbf;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .section-title {
   font-size: 36px;
@@ -148,7 +142,7 @@ img {
 }
 
 /* --- Section Portfolio --- */
-.portfolio-list-name {
+.portfolio-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -175,7 +169,7 @@ img {
     background-color: #2e2f42;
 }
 
-.logo-span-text {
+.logo-part-text {
     color:#f4f4fd
 }
 
