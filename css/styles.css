@@ -135,6 +135,11 @@ a{
   background-color: #f4f4fd;
 }
 
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
