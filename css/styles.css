@@ -150,6 +150,11 @@ a{
     gap: 24px;
 }
 
+.team-item img {
+    width: 100%;
+    height: auto;
+}
+
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
