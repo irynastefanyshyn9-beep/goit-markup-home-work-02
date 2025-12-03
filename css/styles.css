@@ -26,12 +26,24 @@ a{
     color: #2e2f42;
 }
 
+.nav.list {
+    display: flex;
+    gap: 40px;
+}
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.contacts {
+    font-style: normal;
+}
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-link {
@@ -51,10 +63,10 @@ a{
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  text-align: center;
 }
 
 .hero-title {
-  font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -66,18 +78,19 @@ a{
 
 .hero-button {
   background-color: #4d5ae5;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  padding: 16px 32px;
   border: none;
   cursor: pointer;
-  padding: 16px 32px;
   border-radius: 4px;
   margin: 0 auto;
   display: block;
+  transition: background-color 0.3s;
 }
 
 .hero-button:hover,
@@ -89,13 +102,35 @@ a{
     padding: 120px 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 .values-list {
     display: flex;
     gap: 24px;
 }
 
 .values-item {
-    width: calc((100% - 72px) / 4);
+    flex: 1;
 }
 
 .values-subtitle {
@@ -113,3 +148,35 @@ a{
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.team {
+
+    background-color: #f4f4fd;
+}
+
+.team-list {
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-info {
+    padding: 32px 0;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;;
+    letter-spacing: 0.02em;
+    color:#2e2f42
+    margin-bottom: 8px;
+}
+
+.team-position {
+    font-size: 16 px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
