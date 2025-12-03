@@ -36,10 +36,6 @@ img {
     color: #2e2f42;
 }
 
-.nav.list {
-    display: flex;
-    gap: 40px;
-}
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -50,10 +46,6 @@ img {
 
 .contacts {
     font-style: normal;
-}
-.contacts-list {
-    display: flex;
-    gap: 40px;
 }
 
 .contacts-link {
@@ -72,7 +64,6 @@ img {
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
   text-align: center;
 }
 
@@ -113,16 +104,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.features-list, 
-.team-list {
-  display: flex; /* Added display flex */
-  gap: 24px;     /* Added gap */
-}
-
-.features-list-item {
-  width: calc((100% - 72px) / 4); /* Calculated width */
 }
 
 .features-list-title {
@@ -167,7 +148,7 @@ img {
 }
 
 /* --- Section Portfolio --- */
-.portfolio-name {
+.portfolio-list-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -189,7 +170,7 @@ img {
     color: #434455;
 }
 
-/* --- Footer --- */
+/* --- Footer  -- */
 .footer {
     background-color: #2e2f42;
 }
